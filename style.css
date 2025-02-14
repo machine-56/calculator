@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #929292;
+    background-color: #ffffff;
+
+    table{
+        width: 100%;
+        margin-top: 20px;
+        
+        tr{
+            /* border: 1px solid red; */
+            td{
+                /* border: 1px solid green; */
+                display: flex;
+                justify-content: space-evenly;
+                width: 100%;
+                padding: 8px;
+                .ip-field{
+                    width: 100%;
+                    margin-right: 5px;
+                    border-radius: 5px;
+                    border: 1px solid #cccccc;
+                    background-color: #ffffff;
+                }
+
+                .input-btn, .btn-cal{
+                    padding: 5px 20px;
+                    width: 32px;
+                    height: 42px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        } 
+    }
+}
